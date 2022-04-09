@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Build a Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <div class="title">
+    <h1 id=title>Service enhancement survey </h1>
+</header>
+
+<body>
+  <p id="description"> A quick survey to help us to better serve our customers.</p>
+
+  </div>
+
+  <div class="input-headings">
+
+    <form id="survey-form"> 
+
+      <label id="name-label" for="name">Your name</label>
+
+      <input type="text" id="name" placeholder="Enter your name" class="form-inputs" required>
+
+      <br>
+
+      <label id="email-label" for="email">Your email</label>
+
+      <input id="email" placeholder="Enter your email" type="email" class="form-inputs" required>
+      <br>
+
+      <label id="number-label" for="number">Your Age</label>
+
+      <input id="number" type="number" min="16" max="99" placeholder="Age" class="form-inputs">
+
+      <br><br>
+
+      <label id="dropdown-label" for="dropdown">Your occupation</label>
+
+      <br>
+
+      <select id="dropdown" type="select" class="form-inputs">
+        <option value="student">Student</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="self employed">Self Employed</option>
+        <option value="Retired">Retired</option>
+        <option value="permanently employed">Permanently Employed</opption>
+      </select>
+      <br><br>
+      <p>
+      <h4>How likely are you to recommend our company to others</h4>
+      </p>
+
+      <label for="likely">
+
+        <input id="likely" type="radio" value="likely" name="yes-maybe-no">Most likely
+      </label>
+
+      <br>
+
+      <label for="maybe">
+
+        <input id="maybe" type="radio" value="maybe" name="yes-maybe-no">Maybe
+      </label>
+
+      <br>
+
+      <label for="unlikely">
+
+        <input id="unlikely" type="radio" value="unlikely" name="yes-maybe-no">Highly unlikely</label>
+
+      <br> <br>
+
+      <label for="suggestions"><b>Which areas would you like to see improve</b></label>
+      <br>
+
+      <Input id="checkbox" type="checkbox" name="suggestions" value="after-sales-service">
+      <label for="checkbox">After sales service</label>
+      <br>
+      <Input id="checkbox" type="checkbox" name="suggestions" value="product quality">
+      <label for="checkbox">Product quality</label>
+      <br>
+      <Input id="checkbox" type="checkbox" name="suggestions" value="lead times">
+      <label for="checkbox">Lead times on orders</label>
+      <br>
+      <Input id="checkbox" type="checkbox" name="suggestions" value="follow ups">
+      <label for="checkbox">Frequency of follow ups</label>
+      <br>
+      <Input id="checkbox" type="checkbox" name="suggestions" value="delivery">
+      <label for="checkbox">Delivery efficacy/Reach</label>
+      <br>
+
+      <Input id="checkbox" type="checkbox" name="suggestions" value="product knowledge">
+      <label for="checkbox">Product related Knowledge of all staff</label>
+      <br><br>
+
+      <label for"textarea"><b>Additional Comments</b></label>
+      <br>
+      <textarea id="textarea" name="commments" rows="5" cols="40">
+     </textarea>
+      <br>
+
+      <button id="submit" type="submit" class="submit-button">Submit all input</Submit>
+
+  </div>
+  </form>
+
+  </div>
+
+</body>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
